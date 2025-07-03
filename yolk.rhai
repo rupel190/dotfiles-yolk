@@ -8,6 +8,11 @@ export let eggs = #{
         templates: ["dunstrc"],
         enabled: true,
       },
+    ags: #{
+        targets: "~/.config/ags",
+        templates: ["app.ts", "style.scss", "widget/Bar.tsx"],
+        enabled: true,
+      },
     neofetch: #{
         targets: "~/.config/neofetch",
         templates: ["neofetch.conf"],
@@ -20,27 +25,22 @@ export let eggs = #{
       },
     fish: #{
         targets: "~/.config/fish",
-        templates: [],
         enabled: true,
       },
     hypr: #{
         targets: "~/.config/hypr",
-        templates: [],
         enabled: true,
       },
     nvim: #{
         targets: "~/.config/nvim",
-        templates: [],
         enabled: true,
     },
     btop: #{
         targets: "~/.config/btop",
-        templates: [],
         enabled: true,
     },
     ianny: #{
         targets: "~/.config/io.github.zefr0x.ianny",
-        templates: [],
         enabled: true,
     },
     keepassxc: #{
@@ -50,12 +50,10 @@ export let eggs = #{
     },
     wezterm: #{
       targets: "~/.config/wezterm",
-      templates: [],
       enabled: true,
     },
     cava: #{
       targets: "~/.config/cava",
-      templates: [],
       enabled: true,
     },
 };
