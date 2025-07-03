@@ -8,6 +8,7 @@ set -x EDITOR nvim
 neofetch
 fish_vi_key_bindings
 
+abbr sc sudo systemctl
 abbr scu systemctl --user
 abbr scus systemctl --user status
 abbr scur systemctl --user restart
