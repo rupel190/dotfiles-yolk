@@ -35,6 +35,10 @@ export let eggs = #{
         targets: "~/.config/nvim",
         enabled: true,
     },
+    spicetify: #{
+        targets: "~/.config/spicetify",
+        enabled: true,
+      },
     btop: #{
         targets: "~/.config/btop",
         enabled: true,
