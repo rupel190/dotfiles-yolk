@@ -60,4 +60,8 @@ export let eggs = #{
       targets: "~/.config/cava",
       enabled: true,
     },
+    tridactyl: #{
+        targets: "~/.config/tridactyl",
+        enabled: true,
+      }
 };
