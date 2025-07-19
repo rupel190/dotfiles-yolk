@@ -1,7 +1,6 @@
 ## Configuration file for CAVA.
 # Remove the ; to change parameters.
 
-
 [general]
 
 # Smoothing mode. Can be 'normal', 'scientific' or 'waves'. DEPRECATED as of 0.6.0
@@ -22,7 +21,7 @@
 
 # The number of bars (0-512). 0 sets it to auto (fill up console).
 # Bars' width and space between bars in number of characters.
-; bars = 0
+; bars = 4
 ; bar_width = 2
 ; bar_spacing = 1
 # bar_height is only used for output in "noritake" format
@@ -231,15 +230,15 @@
 # Gradient mode, only hex defined colors are supported,
 # background must also be defined in hex or remain commented out. 1 = on, 0 = off.
 # You can define as many as 8 different colors. They range from bottom to top of screen
-; gradient = 0
-; gradient_color_1 = '#59cc33'
-; gradient_color_2 = '#80cc33'
-; gradient_color_3 = '#a6cc33'
-; gradient_color_4 = '#cccc33'
-; gradient_color_5 = '#cca633'
-; gradient_color_6 = '#cc8033'
-; gradient_color_7 = '#cc5933'
-; gradient_color_8 = '#cc3333'
+
+gradient = 1
+gradient_color_1 = '#8bd5ca' # {< replace_color(colors::theme.teal) >}
+gradient_color_2 = '#91d7e3' # {< replace_color(colors::theme.sky) >}
+gradient_color_3 = '#7dc4e4' # {< replace_color(colors::theme.sapphire) >}
+gradient_color_4 = '#8aadf4' # {< replace_color(colors::theme.blue) >}
+gradient_color_5 = '#c6a0f6' # {< replace_color(colors::theme.mauve) >}
+gradient_color_6 = '#f5bde6' # {< replace_color(colors::theme.pink) >}
+gradient_color_7 = '#ee99a0' # {< replace_color(colors::theme.maroon) >} gradient_color_8 = '#ed8796' # {< replace_color(colors::theme.red) >}
 
 
 
