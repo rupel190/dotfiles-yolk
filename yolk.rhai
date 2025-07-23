@@ -101,9 +101,7 @@ export let eggs = #{
     yazi: #{
       targets: #{
         ".": "~/.config/yazi",
-        "../../commons/rupels_dynamic.tmTheme": "~/.config/yazi/themes/rupels_dynamic.tmTheme",
       },
-      templates: ["../../commons/rupels_dynamic.tmTheme"],
       enabled: true,
     },
 

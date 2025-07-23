@@ -20,7 +20,9 @@ config.show_new_tab_button_in_tab_bar = false
 -- Requires nightly build
 -- config.show_close_tab_button_in_tabs = false
 
-config.color_scheme = "Tokyo Night"
+local appearance = require("appearance")
+config.color_scheme = appearance.scheme_for_appearance(appearance.get_appearance())
+
 config.font = wezterm.font_with_fallback({
 	"GeistMono Nerd Font Mono",
 	"JetBrains Mono",
