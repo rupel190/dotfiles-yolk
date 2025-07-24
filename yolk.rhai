@@ -4,9 +4,8 @@ export let data = #{
     for_vcs: LOCAL,
     cool_setting: if SYSTEM.hostname == "foo" { 10 } else { 25 }
 };
-export let eggs = #{
 
-    
+export let eggs = #{
     dunst: #{
         targets: "~/.config/dunst",
         templates: ["dunstrc"],
@@ -102,11 +101,25 @@ export let eggs = #{
       targets: #{
         ".": "~/.config/yazi",
       },
+      templates: ["themes/dynamic.toml"],
       enabled: true,
     },
 
-  
+    gtk_3: #{
+      targets: #{
+        ".": "~/.config/gtk-3.0",
+      },
+      enabled: true,
+    },
 
+    gtk_4: #{
+      targets: #{
+        ".": "~/.config/gtk-4.0",
+      },
+      enabled: true,
+    },
 
-        
 };
+
+
+
